@@ -9,4 +9,4 @@ services:
     ports:
       - "1242:1242"
     volumes:
-      - C:/Users/sauri/Documents/ASF/config:/app/config
+      - ./config:/app/config
