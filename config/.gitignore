@@ -1,0 +1,9 @@
+# Ignore everything in this folder
+*
+
+# Allow specific files in this folder
+!ASF.json
+!IPC.config
+
+# Allow .gitignore itself (if necessary)
+!.gitignore

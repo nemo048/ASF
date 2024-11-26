@@ -1,0 +1,12 @@
+services:
+  asf:
+    image: justarchi/archisteamfarm:latest
+    container_name: asf
+    restart: unless-stopped
+    pull_policy: always
+    environment:
+      ASPNETCORE_URLS: http://*:1242
+    ports:
+      - "1242:1242"
+    volumes:
+      - C:/Users/sauri/Documents/ASF/config:/app/config
